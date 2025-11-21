@@ -1,0 +1,10 @@
+faker>=37.3.0
+openpyxl>=3.1.2
+uvicorn>=0.22.0
+fastapi[all]>=0.95.2
+pydantic>=2.4.0
+pymysql>=1.1.0
+sqlalchemy>=2.0.20
+pyJWT>=2.8.0
+python-multipart
+cryptography
