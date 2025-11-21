@@ -2,9 +2,9 @@ name: Matrix Environments CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
@@ -36,4 +36,4 @@ jobs:
       - name: Run Python Script for ${{ matrix.env_name }} environment
         run: |
           echo "Running in environment: $ENV_NAME"
-          python envtestmatrix.py $ENV_NAME
+          python ./envtestmatrix.py $ENV_NAME
